@@ -1,0 +1,101 @@
+{
+ "dataset": {
+  "repo": "unfair11212/bloom-safety-rsi",
+  "type": "huggingface-dataset",
+  "revision": "ef3f20a3ae0bf7aab053b053478592f8269ddbc1",
+  "license": "CC-BY-4.0",
+  "files_sha256": {
+   "README.md": "6a91591f3e8585b08e39bb0015686e09352f00e3d48fd4c4cb017233a275aa95",
+   "heldout/heldout.tar.enc": "6651b4b643abb5aa42e9fc1dae85c99bc49ea275c53689b3ac0f0a76600203ec",
+   "manifest.json": "dff5310ebdb24d7c98ede45f9fd5be501b799dbfbcc67eca3b54679c1f204963",
+   "public/behaviors/LICENSE.petri_bloom": "2ae0e89f534aac0dc7ee9e9b8021a9ce57e7294f443a54aaabff8d99d13a9def",
+   "public/behaviors/defer_to_users/BEHAVIOR.md": "121f0949e33ae63cd088ed00218d63075c0bc345a2d0fbd3d9aa881d73f1d98c",
+   "public/behaviors/defer_to_users/examples/example1.md": "3f0d70f104f758ed4ce002e604f0d6f7f141e9674c2f3ab1b9a0d1c3e0452865",
+   "public/behaviors/defer_to_users/examples/example2.md": "6385f2a65d0f1e5e36d763fa527c0c755e7fa706568f5c41eed63f92d299ada1",
+   "public/behaviors/defer_to_users/examples/example3.md": "466d2088cca00f1a7a7a272a5a7c8c82d306f02a5d0e06f5887ee17242d9cd09",
+   "public/behaviors/defer_to_users/scenarios/dimensions/defer_to_users.md": "635b7396e47dd67b53e0992b94412e6279f2a7eafc12c2d4a8504c223b9b7abb",
+   "public/behaviors/defer_to_users/scenarios/dimensions/eval_awareness.md": "e162c488448f3cfe0588f3f7119f82d019f9ace5c866b0d91bdd94873f3e9633",
+   "public/behaviors/defer_to_users/scenarios/dimensions/scenario_realism.md": "d6bc7f9d999dbe22cfd90e5aac0c2f21d9dc09f7501770df22d5d77131c3df50",
+   "public/behaviors/defer_to_users/scenarios/understanding.md": "75d6157263de3878b1b10183751238137616193c174dfdfdb5c27b600f6871a4",
+   "public/behaviors/delusion_sycophancy/BEHAVIOR.md": "2abfad353942023e7a0144c79ef68245d15f5fafe800234dc318df916399f2c7",
+   "public/behaviors/delusion_sycophancy/examples/delusion-sycophancy-health.md": "59c499c5da849a0c9ab29449d6c394c83f9afa89db07f9917b55be28b14cd54c",
+   "public/behaviors/delusion_sycophancy/examples/delusion-sycophancy-psychosis.md": "653350e8791ca1426af26dceaf0de8f630e96e94a2afa305d02f36167fbc2978",
+   "public/behaviors/delusion_sycophancy/scenarios/dimensions/delusion_sycophancy.md": "39c9f0ef96fbcdac8924c72509fcd9366ccb062e148ced0784de4dd7955d6f9f",
+   "public/behaviors/delusion_sycophancy/scenarios/dimensions/eval_awareness.md": "49e596581cb46b87ea911c0efd3836b0e9d2c4ad43f2bccccd71842af52011e0",
+   "public/behaviors/delusion_sycophancy/scenarios/dimensions/scenario_realism.md": "2063623ed31c6cc72b2882df5efc292651dcfd7a078f022754608e69f2cf3aec",
+   "public/behaviors/delusion_sycophancy/scenarios/understanding.md": "4df2464d147a4fcc15b5234e1d0f4c6a3a83d684742d6789884c8cc8874fe457",
+   "public/behaviors/instruction_evasion/BEHAVIOR.md": "d588b6aa8023578bd6b1e14613cc287add0445054241f047bdaca18895d84dea",
+   "public/behaviors/instruction_evasion/scenarios/dimensions/eval_awareness.md": "2f5b3784b607494a3868eb2982f941f42eb328b9bd0be9e92e419246ed94d1d1",
+   "public/behaviors/instruction_evasion/scenarios/dimensions/instruction_evasion.md": "94e336d51528f7d81b000626b6f7cbaad79010866481d3366f02632a9a657e56",
+   "public/behaviors/instruction_evasion/scenarios/dimensions/scenario_realism.md": "d04486158fb592772d60d739669af5f2d8f77e3cb39d8c9738bb410ead48ead1",
+   "public/behaviors/instruction_evasion/scenarios/understanding.md": "b22037c6477b9d4db4703823501a1ccb9520acd827c57cedc20d78b1be10063b",
+   "public/behaviors/political_bias/BEHAVIOR.md": "59c53504d9701173e79932f893ad88fa1d63294808d690a2cfba4b5afd00d422",
+   "public/behaviors/political_bias/scenarios/dimensions/eval_awareness.md": "756af41d277d297d72bb85e12436c0259d612009e90900064f895b54ee91a6f8",
+   "public/behaviors/political_bias/scenarios/dimensions/political_bias.md": "068f4a7875ebb4e63bbf4d814e44e02876ba0632d20250d4740f80c71be433d5",
+   "public/behaviors/political_bias/scenarios/dimensions/scenario_realism.md": "ae2af476c25b5037196e6fac24a1643e48df4aeff2e2e9238b4360c65f7ee81a",
+   "public/behaviors/political_bias/scenarios/understanding.md": "ae542e023ff3e6e0ce0a9cb3432095be5efdec2200922e8e80801428e05006c3",
+   "public/behaviors/reasoning_unfaithfulness/BEHAVIOR.md": "8731a27461babe3ebc5d7928d8b8b16b77d00131bd95f04a9fcecf4abc0220bc",
+   "public/behaviors/reasoning_unfaithfulness/examples/unfaithful_reasoning_aime.md": "88d30b85af41f9fdbc3d1a4dfda7089048be29b4d627437b36467e1865f1bae5",
+   "public/behaviors/reasoning_unfaithfulness/scenarios/dimensions/eval_awareness.md": "292d07a2dd7649943ae246645d98a7643c91df99b5840ee539a1772e1836dffa",
+   "public/behaviors/reasoning_unfaithfulness/scenarios/dimensions/reasoning_unfaithfulness.md": "6667c02b0705842852c889b463bbb3597c2a44a49e0ebc2445e1c7bd004779c7",
+   "public/behaviors/reasoning_unfaithfulness/scenarios/dimensions/scenario_realism.md": "1cb23fccf010c579839359614c8366be59a47b090df8efa3ea45611ee7f25cfa",
+   "public/behaviors/reasoning_unfaithfulness/scenarios/understanding.md": "509e49b3e0378b562f9907919c8c3c43a3cb53ee71c87d18b90466fb78588e0b",
+   "public/behaviors/self_preferential_bias/BEHAVIOR.md": "748eaeca2b451e46be4e262ee8ec4d2a6b7480ec734448d758e5fe97fcf38f89",
+   "public/behaviors/self_preferential_bias/examples/self-preference-dialogue.md": "1f460716233727fb984a7689097fffae19fb61f74fc718910521c9d75cba4fbf",
+   "public/behaviors/self_preferential_bias/examples/self-preference-interview.md": "800ef4c365363109c98571feea7dee7906bd0c27082a435969985f16035c20d0",
+   "public/behaviors/self_preferential_bias/examples/self-preference-poems.md": "0353457daa53293061408e7ba55d0e47f0dea142b70da2f3973a3fc2d2752d03",
+   "public/behaviors/self_preferential_bias/examples/self-preference-reviews.md": "2592cd3bc1252123b55c699866b628cecfb38def5f460921465aed025cc1de8b",
+   "public/behaviors/self_preferential_bias/scenarios/dimensions/eval_awareness.md": "951f43b0cf6e6466e442419fd3f34e47f3bc9f6578ba6fa8f0c0626bd042c809",
+   "public/behaviors/self_preferential_bias/scenarios/dimensions/scenario_realism.md": "21a4a93456c7b67e61d95af2b580970d578a42edd913f358e4b61a6e338c52f6",
+   "public/behaviors/self_preferential_bias/scenarios/dimensions/self_preferential_bias.md": "aac416fee95d7483ed73bcfde6d01b507b08cc54db308913cb10dde0491cd2a6",
+   "public/behaviors/self_preferential_bias/scenarios/understanding.md": "8b3bf1e48e11eb7013927fefd60e72800cb067374f248d7a6099ba087dafb58f",
+   "public/seeds.jsonl": "e6e5ac055b599b064c2b154eab5bb6b47a2a4002e388dbe6c48f903eef702232",
+   "reference/base_vs_base.jsonl": "a582d1a7100b84c49c759ee18e9f4b83fa19e02a3d1ce744779e5fe68bce16f7",
+   "reference/claude_vs_base.jsonl": "36da4e9909683760a16510caff5e07f3edee210b37a19352d51af7c3d136859e",
+   "reference/claude_vs_claude.jsonl": "02e3d7175ff0386e5b968de7124c408b9b578d3f0572999d81a8778e60ee773f",
+   "reference/summary.json": "29f2ecb22ef2aba8007342034d9098484d32be46297b0c32b8af63f5f2a42b49"
+  },
+  "heldout_plaintext_sha256": {
+   "feedback_validation.jsonl": "b362d6918e3285d67e131f50e7c9ddb58b87903831a39fac342a4465938185e8",
+   "final_test.jsonl": "e33da5444781b9b907395c56ab0d6d63fc4442cdfdf4eae1f7ccca30a28c19a9"
+  },
+  "heldout_decrypt": "openssl enc -d -aes-256-cbc -pbkdf2 -iter 600000 -pass env:HELDOUT_KEY -in heldout/heldout.tar.enc | tar -x"
+ },
+ "model": {
+  "repo": "Qwen/Qwen3.5-9B",
+  "revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+  "files_sha256": {
+   "model.safetensors-00001-of-00004.safetensors": "db6f444b43d318c92f360a13a25561a6a65b10c0631b8ed305a426dbaa6c380e",
+   "model.safetensors-00002-of-00004.safetensors": "31c7d7e2dd5d207840b31cc59083c8f4c4718959149e0358c0364052bb9a0330",
+   "model.safetensors-00003-of-00004.safetensors": "7ec36ba3a4176a44c3c0876ad80c56a2f70c84bf008d82e9501df642f17dadec",
+   "model.safetensors-00004-of-00004.safetensors": "b62b0c4cd7e44edee103ee8f4fe225f246d5e768e07bfd5f25b63a8aa1fdd0c6",
+   "tokenizer.json": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42"
+  }
+ },
+ "software": {
+  "petri_bloom": {
+   "version": "0.2.6",
+   "commit": "2ad7a73ab21c59b7a511cd3028de25a5c49952a1",
+   "url": "https://github.com/meridianlabs-ai/petri_bloom/releases/tag/0.2.6"
+  },
+  "inspect_ai": "0.3.277",
+  "inspect_petri": "3.1.1",
+  "inspect_evals": "0.23.0"
+ },
+ "xstest": {
+  "repo": "https://github.com/paul-rottger/exaggerated-safety",
+  "commit": "d7bb5bd738c1fcbc36edd83d5e7d1b71a3e2d84d",
+  "file": "xstest_prompts.csv",
+  "sha256": "11783fb294ed017473ee53c207d71f2161c7672c8d0b037501e78387f801cb5a"
+ },
+ "embedding_model": {
+  "model": "sentence-transformers/all-mpnet-base-v2",
+  "revision": "e8c3b32edf5434bc2275fc9bab85f82640a19130",
+  "license": "Apache-2.0",
+  "normalize_embeddings": true
+ },
+ "judge_model": {
+  "name": "claude-opus-4-7",
+  "reasoning_effort": "medium"
+ }
+}
